@@ -50,7 +50,7 @@ physicsWorld.addBody(groundBody);
 
 const groundMesh = new THREE.Mesh(
     new THREE.PlaneGeometry(500, 200),
-    new THREE.MeshStandardMaterial({ color: 0x0da3ba, transparent: true, opacity: 0.3 })
+    new THREE.MeshStandardMaterial({ color: 0x0da3ba, transparent: true, opacity: 0.25 })
 );
 groundMesh.rotation.x = -Math.PI / 2;
 groundMesh.position.y = groundY;
