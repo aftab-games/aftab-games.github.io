@@ -217,9 +217,9 @@ section {
 
 .portfolio-text .project-role {
     font-size: 1.1em;
-    font-style: italic;
+    /*font-style: italic;*/
     color: var(--text-light);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .portfolio-text .project-role strong {
