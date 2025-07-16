@@ -257,6 +257,12 @@ section {
     fill: currentColor;
 }
 
+.project-links img {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
 
 /* --- CONTACT SECTION --- */
 #contact {
