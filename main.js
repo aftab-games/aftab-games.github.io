@@ -15,7 +15,7 @@ camera.position.setZ(30);
 
 // --- TEXTURE LOADER ---
 const textureLoader = new THREE.TextureLoader();
-const ballTexture = textureLoader.load('ball.png');
+const ballTexture = textureLoader.load('Images/ball.png');
 
 // --- LIGHTING ---
 const ambientLight = new THREE.AmbientLight(0xffffff, 1.5);
