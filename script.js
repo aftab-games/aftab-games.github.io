@@ -251,14 +251,13 @@ document.addEventListener('DOMContentLoaded', () => {
         ).join('');
 
         const projectHTML = `
-            <div class="flex flex-col md:flex-row gap-8 md:gap-16 items-center py-16 border-b border-gray-800 last:border-0 ${directionClass}">
+            <div class="flex flex-col md:flex-row gap-8 md:gap-10 items-center py-16 border-b border-gray-800 last:border-0 ${directionClass}">
                 <!-- Visual Side -->
                 <div class="w-full md:w-1/2 flex justify-center">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-black border border-gray-800 group ${mediaClass}">
                         <img src="${project.mediaSrc}" alt="${project.title} Gameplay" 
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100" 
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100" 
                             loading="lazy" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
                     </div>
                 </div>
 
