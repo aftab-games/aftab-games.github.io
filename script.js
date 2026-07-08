@@ -1,9 +1,9 @@
 /* ================= DATA ================= */
 const PROFILE = {
   name: "Md. Aftab Uddin",
-  title: "Unity Game Developer | Game Designer",
+  title: "Unity Developer | Game Designer",
   // New Summary added here:
-  about: "5+ years of delivering Games and AR/VR experiences. Contributed to a studio with 470M+ downloads. Expert in modular architecture, performance optimization, and Game Design to deliver smooth performance, scalable systems, and fun games.",
+  about: "Unity Engineer with 5+ years of experience delivering games and AR/VR systems, specialized in Gameplay programming, Game design, Game feel, Performance optimization, Modular architecture, and editor tooling that speeds up designer iteration. Focused on Clean code, Performance, Game feel, and AI tools to deliver smart and quality products. I breathe games, and enjoy seeing people having fun with what I build.",
   email: "aftab.uddin.games@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/aftab-games/",
